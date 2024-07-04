@@ -812,7 +812,15 @@
     
             }
 
-
+ .pattern2 .glow-on-hover::after{
+    background-color: #fff;
+    border: none;
+  }
+  .pattern2 .glow-on-hover:hover::after{
+    background-color: transparent;
+    border: none;
+  }
+    
 
 
 
