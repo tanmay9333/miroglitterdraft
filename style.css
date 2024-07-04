@@ -357,7 +357,7 @@
                 height: 40vh;
                 width: 100%;
                 background-image: url(imgs/jpgnew/1.jpg);
-                background-size: contain;
+                background-size: cover;
                 background-repeat: no-repeat;
                 animation: 1s ease-in-out fadeinup;
                 animation-timeline: view(70% 0);
@@ -379,6 +379,7 @@
                 background-position: top;
             } 
             .values:hover {
+                background-size:110%;
                 transition: box-shadow 1s ease-in-out;
                 box-shadow: inset 7px 7px 15px #acacac,
                 inset -7px -7px 15px #ffffff;
