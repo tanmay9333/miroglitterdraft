@@ -357,16 +357,13 @@
                 height: 40vh;
                 width: 100%;
                 background-image: url(imgs/jpgnew/1.jpg);
-                background-size: cover;
+                background-size: 80%;
                 background-repeat: no-repeat;
                 animation: 1s ease-in-out fadeinup;
                 animation-timeline: view(70% 0);
                 box-shadow: 7px 7px 15px #acacac,
                             -7px -7px 15px #ffffff;
                 transition: 1s ease-in-out;
-
-                
-
             }
 
             .values:nth-child(2){
@@ -379,6 +376,7 @@
                 background-position: top;
             } 
             .values:hover {
+                    transition:0.5s ease-in-out;
                 background-size:110%;
                 transition: box-shadow 1s ease-in-out;
                 box-shadow: inset 7px 7px 15px #acacac,
