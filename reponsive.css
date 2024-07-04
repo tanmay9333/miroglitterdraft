@@ -54,7 +54,7 @@
 
 /*   about us  */
 
-  .about-us, company{
+  .about-us, .company{
     padding:5em 5em;
     height:auto;
   }
