@@ -1,0 +1,223 @@
+
+@media(max-width:1600px)
+{
+  .glow-on-hover{
+
+    font-size: 1em;
+
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  p{
+    font-size: 0.6em;
+  }
+  .products{
+    padding: 0 2em;
+  }
+
+.img1{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    overflow: hidden;
+    width: 100%;
+    
+}
+.main-product .main1{
+  width: 80%;
+}
+  .more-details{
+    
+    padding: 1em 10em;
+    height: auto;
+  }
+}
+@media(max-width:1200px){
+  p{
+    width: 100%;
+    font-size: 0.8em;
+  }
+  h2{
+    font-size: 3em;
+  }
+
+  h3{
+    font-size:1.2em;
+  }
+
+  /* section 2 */
+  
+
+  .boundtobeautify{
+    padding: 2em 2em;
+    height: fit-content;
+  }
+  .main1{
+    width: 100%;
+  }
+  .pattern{
+    height: 30vh;
+  }
+  .glass1{
+    height: 30vh;
+  }
+  .values{
+    height: 30vh;
+  }
+  /* section 2*/
+
+  /* section 3 */
+
+  .intro .main1{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+  }
+  .main1{
+    width: 100%;
+  }
+  .intro{
+    height: auto;
+    padding: 2em 2em;
+  }
+
+  .shopnow{
+    padding: 0em 2em;
+  }
+  .shopnow-glass{
+      width: 100%;
+  }
+
+  /* products */
+  .products h3{
+    font-size: 2em;
+  }
+  .products p{
+    font-size: 1em;
+  }
+  .products{
+    text-align: center;
+    width: 100%;
+    padding: 2em 2em;
+  }
+  .product-list{
+    width: 100%;
+    display: block;
+  }
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+
+/* parallax scrol */ 
+
+.parallax-scroll{
+
+  height: 60vh;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.parallax-scroll .left1{
+    padding: 2em;
+} 
+.segment-header p{
+  width: 100%;
+}
+.footer-main{
+  padding: 1em;
+}
+}
+
+/* ------------------------------------mobile responsive ------------------------------------ */
+
+@media(max-width:756px) {
+
+  h3{
+    font-size: 1em;
+}
+h2{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+  #hero{
+    height: 100vh;
+    display: flex;
+  width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .boundtobeautify{
+    margin: 0;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+  }
+
+ 
+  .grid1{
+            
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: auto;
+    width: 100%;
+    gap: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.left-side{
+  width: 100%;
+  height: 70vh;
+}
+
+.footer-main{
+  height: auto;
+}
+.mobileview{
+  width: 100%;
+  align-items: start;
+  height: auto;
+  display: flex; 
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-glass div{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+}

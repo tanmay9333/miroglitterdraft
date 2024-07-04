@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>water</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Open Sans", sans-serif;
+            background: #00acee;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+
+            font-weight: 600;
+            position: relative;
+        }
+        .box h1{
+            font-size: 10em;
+            z-index: 999;
+        }
+
+        .box:before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 300%;
+            background: #E80303;
+            
+            animation:fill 5s ease-in-out infinite;
+            border-radius: 120px;
+            
+        }
+        @keyframes fill{
+            from{
+                top: 80%;
+                transform: translateX(-50%) rotate(0deg);
+            }
+            to {
+                top: 0%;
+                transform: translateX(0) rotate(360deg);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    
+<div class="box">
+    <h1>COMING SOON</h1>
+</div></body>
+</html>

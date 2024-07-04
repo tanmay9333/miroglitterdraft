@@ -1,0 +1,78 @@
+[
+    {
+      "image": "imgs/jpgnew/1.jpg",
+      "title": "Product 1 Title",
+      "price": 19.99,
+      "description": "This is a description of product 1.",
+      "dimensions": "10x15 cm",
+      "enquireLink": "product1.html" 
+    },
+    
+    {
+      "image": "imgs/jpgnew/2.jpg",
+        "title": "Product 2 Title",
+        "price": 19.99,
+        "description": "This is a description of product 1.",
+        "dimensions": "10x15 cm",
+        "enquireLink": "product1.html" 
+      },
+    {
+      "image": "imgs/jpgnew/3.jpg",
+      "title": "Product 3 Title",
+      "price": 24.50,
+      "description": "This is a description of product 2.",
+      "dimensions": "20x30 cm",
+      "enquireLink": "contact@yourshop" 
+    },
+    {
+      "image": "imgs/jpgnew/4.jpg",
+        "title": "Product 4 Title",
+        "price": 24.50,
+        "description": "This is a description of product 2.",
+        "dimensions": "20x30 cm",
+        "enquireLink": "contact@yourshop.com" 
+      },  
+      {
+        "image": "imgs/jpgnew/5.jpg",
+        "title": "Product 5 Title",
+        "price": 24.50,
+        "description": "This is a description of product 2.",
+        "dimensions": "20x30 cm",
+        "enquireLink": "contact@yourshop.com" 
+      },  
+      {
+        "image": "imgs/jpgnew/6.jpg",
+        "title": "Product 6 Title",
+        "price": 24.50,
+        "description": "This is a description of product 2.",
+        "dimensions": "20x30 cm",
+        "enquireLink": "contact@yourshop.com" 
+      },   
+      {
+        "image": "imgs/jpgnew/7.jpg",
+        "title": "Product 7 Title",
+        "price": 24.50,
+        "description": "This is a description of product 2.",
+        "dimensions": "20x30 cm",
+        "enquireLink": "contact@yourshop.com" 
+      },
+      {
+        "image": "imgs/jpgnew/8.jpg",
+        "title": "Product 8 Title",
+        "price": 24.50,
+        "description": "This is a description of product 2.",
+        "dimensions": "20x30 cm",
+        "enquireLink": "contact@yourshop.com" 
+      },
+      {
+        "image": "imgs/jpgnew/9.jpg",
+        "title": "Product 9 Title",
+        "price": "500 rs" ,
+        "description": "This is a description of 2 ....",
+        "dimensions": "20x30 cm",
+        "enquireLink": "contact@yourshop.com" 
+      }
+      
+      
+  ]
+  

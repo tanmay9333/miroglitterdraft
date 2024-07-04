@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdec192c56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <script src="index.js" ></script>
+  
+
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="imgs/miro-wob.png" height="50px" alt=""></a></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li ><a class="active" href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="contact.html" class="glow-on-hover">  Call now </a>
+                </li>            
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+    navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+    
+    }
+    </script>
+
+
+    <!-------------------------- Hero Section  -------------------------->
+
+    <section id="hero1">
+        <canvas id="scene"></canvas>
+        <input id="copy" value="MIRO" style="display:none;"> 
+        <script src="main.js"></script>
+    </section>
+
+
+ 
+  
+           <!-------------------------- Section two  -------------------------->
+
+
+        <section class="boundtobeautify">
+            <div class="main1">                   
+                
+                <div class="pattern">
+                    <div class="glass1">
+                        <h2 class="title1">Bound</h2>
+                        <h2 class="title2">To</h2>
+                        <h2 class="title3">Beautify</h2>
+                    </div>
+                </div>
+           
+                <div class="grid1">
+                    <div class="values"></div>
+                    <div class="values"></div>
+                    <div class="values"></div>
+                </div>
+              
+
+
+            </div>
+
+
+
+   
+              
+
+
+
+
+        </section>
+                    <!-------------------------- infinite texts  -------------------------->
+<!--  -->
+                        <!-- <div class="gallery-wrap">
+                            <div class="gallery">
+                                <div>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                </div>
+                                <div>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                    <span > <img src="imgs/Jpg/01-reiseze.jpg" alt=""> </span>
+                                </div>
+                            </div>
+                        </div> -->
+
+          
+<!--  -->
+
+        <div class="container1">
+            <div class="scroll">
+              <div class="RightToLeft">
+                <p>Mirotec Corporation Mirotec Corporation Mirotec Corporation Mirotec Corporation Mirotec Corporation Mirotec Corporation Mirotec Corporation</p> 
+             
+              </div>
+            </div>
+          </div>
+        <!-------------------------- Section three  -------------------------->
+
+        <section class="intro" >
+            <div class="main1">
+
+                    <div class="left1">
+
+                        <div class="imgbox1">  
+                        </div>
+                   
+                    
+                    </div>
+
+                  <div class="right1">
+                        <h2>The Glitter Manufactuerer</h2>   
+                        <p>Since 50 years into the same line of business with consistency in quality - Mirotec Corporation is a leading manufacturer of Precision Cut Glitter Powder,
+                             including moulding grade glitter powder.</p>
+                        
+                        <div class="imgbox2">
+                            <p>At Mirotec Corporation, we are committed to provide the highest quality glitter powder meeting international quality standards at an affordable price an
+                                d delivering exceptional customer service. Be it for industrial application, for professional artist (cosmetics, artists, handicra
+                                ft, resin) or simply for a fun and easy way to add some sparkle to your life, browse our collection and experience the magic of M
+                                iro glitter powder!</p>
+                        </div>
+                        <h3>End use is limited by one’s imagination...</h3>
+                        <a href="about.html" class="glow-on-hover">  Know more </a>
+
+                 </div>
+                
+            </div>
+        </section>
+
+        <!-------------------------- Shop Now  -------------------------->
+
+        
+        <section class="shopnow" id="shopnow">
+            <div class="shopnow-glass" >                
+                <div class="left-to-right">
+                    <h3>The shop is coming soon</h3>
+                    <a href="about.html" class="glow-on-hover">  Shop now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- Products -------------------------->
+
+        <section class="products">
+            <h2>All Products</h2>
+            <ul class="product-list">
+              </ul>
+              
+              <div class="left-to-right"> 
+                <h3>Browse all Products</h3>
+                <a href="about.html" class="glow-on-hover">  Products </a>
+            </div>
+          </section>
+        <!-------------------------- Shop Now  -------------------------->
+        <section class="parallax-scroll">
+
+            <div class="main1">
+            <div class="left1" style="flex-direction: column;">
+                <h2> FROM<h2> 
+                    
+                    <h2>10 GRAMS TO 10 TON</h2>
+                <h1>
+                    Fully Customizable Manufactuerer
+                </h1>
+            </div>
+            <!-- <div class="left1" style="flex-direction: column;">
+                <h2> 10 GRAMS<h2> 
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO</h2> 
+                    <h2>10 TON </h2>
+                <h1>
+                    Fully Customisable Manufactuerer
+                </h1>
+            </div> -->
+            <div class="right1"></div>
+            </div>
+
+        </section>
+
+
+        <!-- category for segments -->
+
+
+                <section class="segments">
+                
+                        <div class="segment-header">  
+                            <h2>Endless Possibiities</h2> 
+
+                            <p>    Mirotec Corporation specializes in manufcaturing Glitter Powder, Coated and Metallized Polyester film, and Moulding grade glitter powder.
+                                 As a leading glitter manufacturer, elivating industrial applications with dazzling effects and functional benefits.
+                                 Our commitment to quality, durability, and innovation sets us apart in the industry</p>
+                        </div>
+                    <div class="main2">
+                        <div class="segment" style="border-top: 2px solid #00afef ;">
+                            <div>
+                                <h3>Art & Craft</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, excepturi!</p>
+                            </div>
+                            <p>read more</p>
+                        </div>
+                        <div class="segment hover2 " style="border-top: 2px solid violet ;">
+                         <div>
+                            <h3>Grouting</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, excepturi!</p>
+                         </div>
+                          <p>read more</p>
+                        </div>
+                        <div class="segment " style="border-top: 2px solid purple">
+                           <div>
+                            <h3>Textile</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, excepturi!</p>
+                           </div>
+                           <p>read more</p>
+                        </div>
+                        <div class="segment " style="border-top: 2px solid red;">
+                           <div>
+                            <h3>Footwear</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, excepturi!</p>
+                           </div>
+                           <p>read more</p>
+                        </div>
+                        <div class="segment " style="border-top: 2px solid  #f2be31;">
+                          <div>
+                            <h3>Paint Industry</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, excepturi!</p>
+                          </div>
+                          <p>read more</p>
+                        </div>
+                        <div class="segment " style="border-top: 2px solid green;">
+                            <div>
+                                <h3>Cosmetic</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, excepturi!</p>
+                            </div>
+                            <p>read more</p>
+                        </div>
+                    </div> 
+
+                </section>
+
+
+      
+        <!-- infinite marquee -->
+
+
+     
+
+
+        <!-------------------------- maps  -------------------------->
+        <!-- <section class="after-parallax">
+
+    
+            
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.11166500908!2d72.97441157612207!3d20.62430480154573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0e9e5c6037ab3%3A0x79ef3b41ff597940!2sMirotec%20Corporation!5e0!3m2!1sen!2sin!4v1719518356738!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </section> -->
+            <!-- pattern 2 -->
+
+            <section class="pattern2">
+                <h2>Let's Work Togethere!</h2>
+                <a href="contact.html" class="glow-on-hover">Contact us</a>
+            </section>
+        <!-------------------------- footer  -------------------------->
+        <footer class="footer-main">
+
+            <!--  footer -->
+                    <div class="mobileview">
+                        <img src="imgs/miro-wob.png" height="50px" alt="">
+                        <li ><a  href="index.html">Home</a></li>
+                        <li> <a class="active"  href="about.html">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact</a></li>           
+                        <button class="glow-on-hover" >Call us</button>
+                      
+                    </div>
+                    <hr>
+                    <div>
+                        <div style="display: flex; justify-content: space-between; width: 100%;">
+                            <p>All rights reserved Miro Glitter</p> &nbsp; <p>made with ♡ by &nbsp;<a href="www.infinizostudios.com">Infinizo Studios</a></p>
+                        </div>
+                    </div>
+            
+            
+                
+            
+            </footer>
+        <!--------------------------   -------------------------->
+
+
+</body>
+</html>
