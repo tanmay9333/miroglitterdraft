@@ -56,7 +56,14 @@
 
   .about-us, .company{
     padding:5em 5em;
-    height:auto;
+  }
+
+  .about-us {
+    height:50vh;
+  }
+  .company{
+    height:65vh;
+    }
   }
 }
 @media(max-width:1200px){
