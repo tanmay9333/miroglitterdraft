@@ -363,7 +363,7 @@
                 animation-timeline: view(70% 0);
                 box-shadow: 7px 7px 15px #acacac,
                             -7px -7px 15px #ffffff;
-                transition: 1s ease-in-out;
+                transition: 0.5s ease-in-out;
             }
 
             .values:nth-child(2){
