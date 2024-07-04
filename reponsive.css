@@ -65,10 +65,12 @@
     height:65vh;
     }
   .form-container{
-    padding:2em 5em;
+    padding: 2em 5em;
   }
 
-
+.contact-info{
+  width:100%;
+}
 
 }
 @media(max-width:1200px){
