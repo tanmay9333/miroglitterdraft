@@ -350,6 +350,9 @@
             }
               
             .values{
+                display: flex;
+                align-items: end;
+                padding: 2em; 
                 border-radius:15px;
                 height: 40vh;
                 width: 100%;
