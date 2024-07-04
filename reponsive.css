@@ -64,7 +64,12 @@
   .company{
     height:65vh;
     }
+  .form-container{
+    padding:2em 5em;
   }
+
+
+
 }
 @media(max-width:1200px){
   p{
