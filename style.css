@@ -367,9 +367,11 @@
             }
 
             .values:nth-child(2){
+                      transition:0.5s ease-in-out;
                 background-image: url(imgs/jpgnew/2.jpg);
             }
             .values:nth-child(3){
+                      transition:0.5s ease-in-out;
                 background-image: url(imgs/jpgnew/3.jpg);
                 background-size: contain;
                 background-repeat: no-repeat;
