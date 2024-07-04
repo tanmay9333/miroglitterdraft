@@ -10,10 +10,10 @@
     font-size: 2em;
   }
   h3{
-    font-size: 1em;
+    font-size: 1.5em;
   }
   p{
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   .products{
     padding: 0 2em;
@@ -33,6 +33,18 @@
 .main-product .main1{
   width: 80%;
 }
+  .parallax-scroll .main1 .left1 H2{
+  font-size: 2.9em;
+  color: #00afef;
+}
+
+  .segment{    
+    height: 35vh;
+  }
+  .segments{
+    height: 120vh;
+    padding-bottom:5em ;
+  }
   .more-details{
     
     padding: 1em 10em;
