@@ -93,7 +93,7 @@
             background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
             position: absolute;
             top: -2px;
-            left:-2px;
+            left:0px;
             background-size: 400%;
             z-index: -1;
             filter: blur(5px);
@@ -128,7 +128,7 @@
             background-color: transparent;;
             border: 1px solid #00afef;
             left: 0;
-            top: 0;
+            top: -2px;
             border-radius: 10px;
             transition: 0.3s ease-in-out;
 
@@ -351,7 +351,7 @@
               
             .values{
                 display: flex;
-                align-items: center;
+                align-items: end;
                 padding: 2em; 
                 border-radius:15px;
                 height: 40vh;
