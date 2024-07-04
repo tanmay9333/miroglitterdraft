@@ -356,7 +356,6 @@
                 border-radius:15px;
                 height: 40vh;
                 width: 100%;
-                background-image: url(imgs/jpgnew/1.jpg);
                 background-size: 80%;
                 background-repeat: no-repeat;
                 animation: 1s ease-in-out fadeinup;
@@ -365,7 +364,11 @@
                             -7px -7px 15px #ffffff;
                 transition: 0.5s ease-in-out;
             }
-
+                
+            .values:nth-child(1){
+                      transition:0.5s ease-in-out;
+                background-image: url(imgs/jpgnew/1.jpg);
+            }
             .values:nth-child(2){
                       transition:0.5s ease-in-out;
                 background-image: url(imgs/jpgnew/2.jpg);
